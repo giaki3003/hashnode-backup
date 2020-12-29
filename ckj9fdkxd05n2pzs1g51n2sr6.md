@@ -40,7 +40,7 @@ The latest, and only PoST implementation can be found in [Verium's codebase](htt
 
 > The greater your economic commitment, the greater your chance at producing a valid block.
 
-A fork of "nil-n" PoS, *Proof-of-Stake version-n* was first implemented in Blackcoin, as described in the [Blackcoin protocol whitepaper.](https://blackcoin.org/blackcoin-pos-protocol-v2-whitepaper.pdf). 
+A fork of "nil-n" PoS, *Proof-of-Stake version-n* was first implemented in Blackcoin, as described in the [Blackcoin protocol whitepaper.](https://blackcoin.org/blackcoin-pos-protocol-v2-whitepaper.pdf)
 The latest version, PoSv3, can be seen live on [QTUM](https://github.com/qtumproject/qtum/blob/master/src/pos.cpp#L44). 
 The main difference here is how economic value's work **isn't tied to any on-chain time bonus**.
 The best documentation available for this protocol can be found [in this devblog by QTUM founder Earlz](http://earlz.net/view/2017/07/27/1904/the-missing-explanation-of-proof-of-stake-version).
@@ -53,7 +53,7 @@ While account-based blockchains are a more popular choice in recent projects, so
 
 > The greater your eligibility score, the greater your chance at producing a valid block.
 
-A flavor of n-PoS, this implementation shifts the economic value's work from a randomly, hash-chosen winner to a **deterministically elected winner**, following an algorithm which permits nodes to compute an *eligibility score*. This score follows version-n rules, so the greater your economic commitment, the greater your chance at producing a valid block.
+A flavor of n-PoS, this implementation shifts the economic value's work from a randomly, hash-chosen winner to a **deterministically elected winner**, following an algorithm which permits nodes to compute an *eligibility score*. This score follows version-n rules, so the greater your economic commitment, the greater your eligibility score.
 There seems to have been a single iteration of said flavor, and it comes from [NXT](https://bitbucket.org/JeanLucPicard/nxt/src/master/).
 I couldn't find any proper documentation for this, but instead found a [great paper](https://www.researchgate.net/publication/319647471_Securing_Proof-of-Stake_Blockchain_Protocols) by Wenting Li, Ghassan Karame and Sebastien Andreina which also describes this protocol very effectively (kudos for their very well thought and written publication, I recommend reading it).
 
