@@ -13,7 +13,7 @@ Tracing a line here helps us identify such a broad set of different implementati
 
 ## A look at the main implementations
 
-Notice: most modern proof-of-stake implementations are *account-based*, instead of *unspent-transaction-output* (UTXO) based. This is due to due to how the first altcoins inherited from Bitcoin most of their code, while newer altcoins tend to have their own, independent codebase. We will get back at this peculiar difference in another part of the series.
+Notice: most modern proof-of-stake implementations are *account-based*, instead of *unspent-transaction-output* (UTXO) based. This is due to how the first altcoins inherited from Bitcoin most of their code, while newer altcoins tend to have their own, independent codebase. We will get back at this peculiar difference in another part of the series.
 
 ### State-less/Epoch-less UTXO-based PoS
 
