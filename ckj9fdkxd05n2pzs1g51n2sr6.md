@@ -15,7 +15,7 @@ Tracing a line here helps us identify such a broad set of different implementati
 
 Notice: most modern proof-of-stake implementations are *account-based*, instead of *unspent-transaction-output* (UTXO) based. This is due to how the first altcoins inherited from Bitcoin most of their code, while newer altcoins tend to have their own, independent codebase. We will get back at this peculiar difference in another part of the series.
 
-### State-less/Epoch-less UTXO-based PoS
+### State-less/epoch-less UTXO-based PoS
 
 There are currently various cryptocurrency networks which run state-less/epoch-less UTXO-based PoS implementations. Although naming conventions are quite confusing, I'll try my best at indexing them based off original versioning. This approach ties in well with the language and specifications most developers I have talked with use, and finding a common ground to which expand upon is mandatory for any type of analysis and discussion. All of these implementations do not require any notion of blockchain **states or epochs.**
 States/epochs are a term used for describing chain snapshots used for consensus-critical validation of blocks. They're currently used in most account-based Proof-of-Stake implementations for a variety of security assumptions and as a way of mitigating a wide range of attacks. 
@@ -27,7 +27,7 @@ States/epochs are a term used for describing chain snapshots used for consensus-
 The first implementation we have information of is what I will refer to as *Proof-of-Stake version nil-n* (PoSv0.n), originating from [Peercoin.](https://github.com/peercoin/peercoin)
 Economic value's work is greatly influenced by **how long it has been on-chain**.
 The latest version, PoSv0.5, improves over the original concept, and can be viewed [here](https://github.com/peercoin/peercoin/blob/master/src/kernel.cpp#L346).
-Documentation about this protocol can be found reading the [Peercoin PoS documentation](https://docs.peercoin.net/#/proof-of-stake).
+Documentation about this protocol can be found reading the [Peercoin PoS documentation.](https://docs.peercoin.net/#/proof-of-stake)
 
 #### *Version nil-n with "inverted time" flavor*
 
@@ -45,7 +45,7 @@ The latest version, PoSv3, can be seen live on [QTUM](https://github.com/qtumpro
 The main difference here is how economic value's work **isn't tied to any on-chain time bonus**.
 The best documentation available for this protocol can be found [in this devblog by QTUM founder Earlz](http://earlz.net/view/2017/07/27/1904/the-missing-explanation-of-proof-of-stake-version).
 
-### State-less/Epoch-less Account-based PoS
+### State-less/epoch-less Account-based PoS
 
 While account-based blockchains are a more popular choice in recent projects, some older chains retain the logic of UTXO-based PoS. When presenting them, I'll use the same versioning in hopes of improving readability and lessening confusion.
 
