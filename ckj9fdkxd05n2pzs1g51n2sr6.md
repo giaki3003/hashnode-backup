@@ -20,7 +20,7 @@ Notice: most modern proof-of-stake implementations are *account-based*, instead 
 There are currently various cryptocurrency networks which run state-less/epoch-less UTXO-based PoS implementations. Although naming conventions are quite confusing, I'll try my best at indexing them based off original versioning. This approach ties in well with the language and specifications most developers I have talked with use, and finding a common ground to which expand upon is mandatory for any type of analysis and discussion. All of these implementations do not require any notion of blockchain **states or epochs.**
 States/epochs are a term used for describing chain snapshots used for consensus-critical validation of blocks. They're currently used in most account-based Proof-of-Stake implementations for a variety of security assumptions and as a way of mitigating a wide range of attacks. 
 
-#### Version nil-n
+#### *Version nil-n*
 
 > The older your economic commitment, the greater your chance at producing a valid block.
 
@@ -29,14 +29,14 @@ Economic value's work is greatly influenced by **how long it has been on-chain**
 The latest version, PoSv0.9, was deployed the 8th of June 2020 as shown [here](https://github.com/peercoin/peercoin/blob/master/src/kernel.cpp#L41).
 Documentation about this protocol (albeit referring to version 0.5) can be found reading the [Peercoin PoS documentation](https://docs.peercoin.net/#/proof-of-stake).
 
-#### Version nil-n with "inverted time" flavor
+#### *Version nil-n with "inverted time" flavor*
 
 > The older your economic commitment, the lower your chance at producing a valid block.
 
 Although this protocol is often referred to as *Proof-of-Stake-Time* or PoST, it is really just a flavor of "nil-n" PoS, where economic value's work is shifted from gradually increasing based off how long your value has been on the network to the **exact opposite**. 
 The latest, and only PoST implementation can be found in [Verium's codebase](https://github.com/vericoin/vericoin/blob/master/src/kernel.cpp#L260), and I couldn't find any proper documentation about it, unfortunately.
 
-#### Version n
+#### *Version n*
 
 > The greater your economic commitment, the greater your chance at producing a valid block.
 
@@ -49,7 +49,7 @@ The best documentation available for this protocol can be found [in this devblog
 
 While account-based blockchains are a more popular choice in recent projects, some older chains retain the logic of UTXO-based PoS. When presenting them, I'll use the same versioning in hopes of improving readability and lessening confusion.
 
-#### Version n with "deterministic election algorithm" flavor
+#### *Version n with "deterministic election algorithm" flavor*
 
 > The greater your eligibility score, the greater your chance at producing a valid block.
 
