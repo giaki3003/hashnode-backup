@@ -26,8 +26,8 @@ States/epochs are a term used for describing chain snapshots used for consensus-
 
 The first implementation we have information of is what I will refer to as *Proof-of-Stake version nil-n* (PoSv0.n), originating from [Peercoin.](https://github.com/peercoin/peercoin)
 Economic value's work is greatly influenced by **how long it has been on-chain**.
-The latest version, PoSv0.9, was deployed the 8th of June 2020 as shown [here](https://github.com/peercoin/peercoin/blob/master/src/kernel.cpp#L41).
-Documentation about this protocol (albeit referring to version 0.5) can be found reading the [Peercoin PoS documentation](https://docs.peercoin.net/#/proof-of-stake).
+The latest version, PoSv0.5, improves over the original concept, and can be viewed [here](https://github.com/peercoin/peercoin/blob/master/src/kernel.cpp#L346).
+Documentation about this protocol can be found reading the [Peercoin PoS documentation](https://docs.peercoin.net/#/proof-of-stake).
 
 #### *Version nil-n with "inverted time" flavor*
 
