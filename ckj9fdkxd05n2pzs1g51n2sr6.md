@@ -8,7 +8,7 @@ The idea revolves around shifting **work** from *energy-wise intensive computati
 ## The reasoning behind this approach
 
 In this overview of State-less/Epoch-less Proof-of-Stake cryptocurrency implementations, my objective ideally is to divide PoS implementations in two big subgroups, this being the first one. 
-In fact, while all Proof-of-Stake implementations try and achieve the shift of **work** to on-chain economic value,  a radical difference comes to how their own block primitive is structured; a group of PoS implementations always requires a certain amount of *"Proof-of-Stake-only bytes"* in the block primitive header, which are not **work** related.
+In fact, while all Proof-of-Stake implementations try and achieve the shift of **work** to on-chain economic value,  a radical difference comes to how their own block primitive is structured; a group of PoS implementations always requires a certain amount of *"Proof-of-Stake-only bytes"* in the block primitive header, which are not **work** related. I have seen these two categories in different developer resources, such as in the [Ethereum documentation](https://eth.wiki/en/concepts/proof-of-stake-faqs), albeit defined and divided following a slightly different set of assumptions. I try and make my own approach more abstracted, in order to keep the two sub-groups as generic as possible. The alternative would be making said groups too specific and risks fragmenting new PoS implementations into smaller categories, thus defeating the purpose of this approach.
 Tracing a line here helps us identify such a broad set of different implementations.
 
 ## A look at the main implementations
@@ -65,7 +65,7 @@ What are the main differences which could emerge when we add states to the mix?
 In my next part, we'll have a look at the other big subgroup, state/epoch based Proof-of-Stake, and hopefully address that question thoroughly.
 
 ### Edits
-Edit 3/1/2021: Added missing PoST whitepaper.
+Edit 3/1/2021: Added missing PoST whitepaper, new NXT documentation, and a reference to the ETH dev resources.
 
 
 
