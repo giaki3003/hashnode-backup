@@ -61,8 +61,8 @@ I couldn't find any proper documentation for this, but instead found a [great pa
 
 This rounds up my list of State-less/Epoch-less Proof-of-Stake implementations.
 I will take care of updating this list when new protocols which fit this subgroup are published.
-What are the main differences which could emerge when we add states to mix?
-In my next part, we'll have a look at the other big subgroup, State/Epoch based Proof-of-Stake, and hopefully address that question thoroughly.
+What are the main differences which could emerge when we add states to the mix?
+In my next part, we'll have a look at the other big subgroup, state/epoch based Proof-of-Stake, and hopefully address that question thoroughly.
 
 
 
