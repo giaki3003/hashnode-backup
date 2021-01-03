@@ -8,7 +8,7 @@ The idea revolves around shifting **work** from *energy-wise intensive computati
 ## The reasoning behind this approach
 
 In this overview of State-less/Epoch-less Proof-of-Stake cryptocurrency implementations, my objective ideally is to divide PoS implementations in two big subgroups, this being the first one. 
-In fact, while all Proof-of-Stake implementations try and achieve the shift of **work** to on-chain economic value,  a radical difference comes to how their own block primitive is structured; a group of PoS implementations always requires a certain amount of *"Proof-of-Stake-only bytes"* in the block primitive header, which is not **work** related.
+In fact, while all Proof-of-Stake implementations try and achieve the shift of **work** to on-chain economic value,  a radical difference comes to how their own block primitive is structured; a group of PoS implementations always requires a certain amount of *"Proof-of-Stake-only bytes"* in the block primitive header, which are not **work** related.
 Tracing a line here helps us identify such a broad set of different implementations.
 
 ## A look at the main implementations
