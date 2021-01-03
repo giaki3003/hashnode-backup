@@ -55,7 +55,7 @@ While account-based blockchains are a more popular choice in recent projects, so
 
 A flavor of n-PoS, this implementation shifts the economic value's work from a randomly, hash-chosen winner to a **deterministically elected winner**, following an algorithm which permits nodes to compute an *eligibility score*. This score follows version-n rules, so the greater your economic commitment, the greater your eligibility score.
 There seems to have been a single iteration of said flavor, and it comes from [NXT](https://bitbucket.org/JeanLucPicard/nxt/src/master/).
-I couldn't find any proper documentation for this, but instead found a [great paper](https://www.researchgate.net/publication/319647471_Securing_Proof-of-Stake_Blockchain_Protocols) by Wenting Li, Ghassan Karame and Sebastien Andreina which also describes this protocol very effectively (kudos for their very well thought and written publication, I recommend reading it).
+Documentation regarding the protocol can be found [on Github.](https://github.com/novacoin-project/novacoin/wiki/Proof-of-stake)
 
 ## Conclusions
 
