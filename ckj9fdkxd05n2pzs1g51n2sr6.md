@@ -34,7 +34,7 @@ Documentation about this protocol can be found reading the [Peercoin PoS documen
 > The older your economic commitment, the lower your chance at producing a valid block.
 
 Although this protocol is often referred to as *Proof-of-Stake-Time* or PoST, it is really just a flavor of "nil-n" PoS, where economic value's work is shifted from gradually increasing based off how long your value has been on the network to the **exact opposite**. 
-The latest, and only PoST implementation can be found in [Verium's codebase](https://github.com/vericoin/vericoin/blob/master/src/kernel.cpp#L260), and I couldn't find any proper documentation about it, unfortunately.
+The latest, and only PoST implementation can be found in [Verium's codebase](https://github.com/vericoin/vericoin/blob/master/src/kernel.cpp#L260), and it is aptly described in [this whitepaper.](https://www.vericoin.info/downloads/VeriCoinPoSTWhitePaper10May2015.pdf)
 
 #### *Version n*
 
@@ -63,6 +63,9 @@ This rounds up my list of State-less/Epoch-less Proof-of-Stake implementations.
 I will take care of updating this list when new protocols which fit this subgroup are published.
 What are the main differences which could emerge when we add states to the mix?
 In my next part, we'll have a look at the other big subgroup, state/epoch based Proof-of-Stake, and hopefully address that question thoroughly.
+
+### Edits
+Edit 3/1/2021: Added missing PoST whitepaper.
 
 
 
