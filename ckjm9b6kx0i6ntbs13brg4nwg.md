@@ -62,7 +62,7 @@ Since this a state-based protocol, blocks require an additional field containing
 
 #### *Casper*
 
-> As of now, Casper is used as a so-called "Friendly-Finality-Layer" (FFG). There is no block creation involved in this process, and a Proof-of-Stake instead is used for defining the concept of **finality**. We will get back at what *finality* is, why it is so important and why traditional blockchains do not define said concept in another episode of this series. Eventually, the Casper protocol , in the "Correct-by-Construction" (or CBC) flavor will be used in a Proof-of-Stake only system, although said dynamics are still rapidly evolving.
+> As of now, Casper is used as a so-called "Friendly-Finality-Gadget" (FFG). There is no block creation involved in this process, and a Proof-of-Stake instead is used for defining the concept of **finality**. We will get back at what *finality* is, why it is so important and why traditional blockchains do not define said concept in another episode of this series. Eventually, the Casper protocol , in the "Correct-by-Construction" (or CBC) flavor will be used in a Proof-of-Stake only system, although said dynamics are still rapidly evolving.
 
 An evolution of Slasher, Casper (name inspired from the omonimous movie, which also gives it a nickname, "the friendly ghost") takes its name from attempting to push the *Greediest Heaviest Observed Sub-Tree* or [GHOST](https://eprint.iacr.org/2013/881) (hence the wordplay) rule-set, which was originally intended for Proof-of-Work systems, to Proof-of-Stake systems. It is currently slated for the [ETH2](https://ethereum.org/en/eth2/) upgrade. 
 
@@ -97,3 +97,7 @@ This rounds up my list of state-based/epoch-based Proof-of-Stake implementations
 With this second part, I have now fully indexed all major PoS protocols which do hold significant part of the current *cryptocurrency economic value*, or, in better words, have the most amount of money involved in stakers.
 
 Now what? In the next article of this series, we'll go through the shortcomings of state-less/epoch-less Proof of Stake protocols, and we'll thoroughly analyze some attacks which are possible.
+
+### Edits
+
+*Edit 7/1/2021: Fixed some naming conventions.*
